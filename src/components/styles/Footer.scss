@@ -1,0 +1,28 @@
+footer {
+  background: #031e2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 25px !important;
+  position: relative;
+  font-family: "Mukta", sans-serif;
+  p {
+    position: absolute;
+    left: 30px;
+    color: #374f5e;
+  }
+  img {
+    // position: absolute;
+  }
+  ul {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    list-style-type: none;
+    color: #ffffff;
+
+    li {
+      padding: 0px 20px;
+    }
+  }
+}

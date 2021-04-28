@@ -1,0 +1,36 @@
+footer {
+  background: #031e2f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px 25px !important;
+  position: relative;
+  font-family: "Mukta", sans-serif;
+}
+
+footer p {
+  position: absolute;
+  left: 30px;
+  color: #374f5e;
+}
+
+footer ul {
+  position: absolute;
+  right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+footer ul li {
+  padding: 0px 20px;
+}
+/*# sourceMappingURL=Footer.css.map */

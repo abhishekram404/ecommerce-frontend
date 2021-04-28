@@ -1,0 +1,55 @@
+.container {
+  background: #ebf2f8;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 200px 1fr 200px;
+      grid-template-rows: 200px 1fr 200px;
+}
+
+.container .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .top p {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.container .top p b {
+  border-bottom: 0.5px dashed #f36176;
+  padding: 5px;
+}
+
+.container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .content .wrapper {
+  width: 1320px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+/*# sourceMappingURL=Body.css.map */

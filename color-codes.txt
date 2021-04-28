@@ -1,0 +1,9 @@
+red -  #f36176
+ black - #031e2f
+ second -black - #07263a
+ white - #ffffff
+ background - #ebf2f8
+ text - #031e2f
+ yellow - #fed36a
+ 
+ 
